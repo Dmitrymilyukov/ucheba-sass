@@ -2,36 +2,37 @@
     padding-top: 181px
     padding-bottom: 260px
 
-.contacts_h2 
-    text-align: center
-    margin-bottom: 60px
+    &_h2 
+        text-align: center
+        margin-bottom: 60px
 
-.contacts_grid 
-    display: grid
-    gap: 30px
-    grid-template-columns: repeat(4, 1fr)
+    &_grid 
+        display: grid
+        gap: 30px
+        grid-template-columns: repeat(4, 1fr)
 
-    @media screen and (max-width: 1280px) 
-        grid-template-columns: repeat(2, 1fr)
+        @media screen and (max-width: 1280px) 
+            grid-template-columns: repeat(2, 1fr)
   
-    @media screen and (max-width: 768px) 
-        grid-template-columns: repeat(1, 1fr)
+        @media screen and (max-width: 768px) 
+            grid-template-columns: repeat(1, 1fr)
 
-.contacts_item 
-    max-width: 255px
-    text-align: center
+    &_item 
+        max-width: 255px
+        text-align: center
 
-.contacts_icon 
-    width: 50px
-    height: 50px
-    margin: 0 auto 15px
+    &_icon 
+        width: 50px
+        height: 50px
+        margin: 0 auto 15px
 
-.contacts_h3 
-  text-transform: $upp
+    &_h3 
+        text-transform: $upp
+        
+    &_h3
+        &-gray 
+            color: $gray-color
+            margin-bottom: 25px
 
-.contacts_h3-gray 
-    color: $gray-color
-    margin-bottom: 25px
-
-.contacts_h3-accent 
-    color: $accent-color
+        &-accent 
+            color: $accent-color
