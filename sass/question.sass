@@ -18,12 +18,14 @@
         color: $dark-color
         max-width: 730px
 
-.question_h3.open::before 
-    @include openclose
-    transform: rotate(-90deg)
+.question_h3.open
+    &:before 
+        @include openclose
+        transform: rotate(-90deg)
 
-.question_h3.close::before 
-    @include openclose
+.question_h3.close
+    &:before 
+        @include openclose
 
 .question_h3.close+.question_p 
     display: none
