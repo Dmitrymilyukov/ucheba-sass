@@ -263,29 +263,6 @@
   margin-bottom: 0;
 }
 
-.h1 {
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 95px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  max-width: 734px;
-  margin: 0 auto 20px;
-  color: #fff;
-}
-
-.h4 {
-  font-weight: 400px;
-  font-size: 18px;
-  line-height: 27px;
-  text-align: center;
-  text-transform: uppercase;
-  max-width: 734px;
-  color: #fff;
-  margin: 0 auto;
-}
-
 .partners {
   padding-top: 69px;
   padding-bottom: 100px;
@@ -528,6 +505,29 @@
 }
 .section_h2_icon,
 .services_h4_icon {
+  margin: 0 auto;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  max-width: 734px;
+  margin: 0 auto 20px;
+  color: #fff;
+}
+
+.h4 {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 734px;
+  color: #fff;
   margin: 0 auto;
 }
 
