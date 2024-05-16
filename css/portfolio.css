@@ -1,0 +1,8 @@
+.portfolio_grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 0 1fr 0 1fr 0 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  gap: 0;
+}

@@ -1,0 +1,38 @@
+@import "variables"
+@import "mixin"
+@import "about"
+@import "contacts"
+@import "footer"
+@import "header"
+@import "partners" 
+@import "portfolio"
+@import "question"
+@import "request"
+@import "reviews"
+@import "services"
+
+html 
+    box-sizing: border-box
+
+*,
+*::before,
+*::after 
+    box-sizing: inherit
+
+img 
+    display: block
+    max-width: 100%
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p 
+    @include padmar
+
+body 
+    margin: 0
+    font-family: $Oswald
+    font-weight: $fw

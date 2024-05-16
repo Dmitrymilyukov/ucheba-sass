@@ -1,0 +1,27 @@
+@mixin openclose
+    content: ""
+    display: inline-block
+    width: 15px
+    height: 15px
+    background-image: url(../img/Polygon.svg)
+    background-repeat: no-repeat
+    background-position: center
+    margin-right: 15px
+
+@mixin padmar 
+    padding: 0
+    margin: 0
+
+@mixin logo 
+    width: 60px
+    height: 60px
+
+@mixin font ($fontF, $fontS)
+    font-family: $fontF
+    font-weight: $fontS
+
+@mixin fonts ($fontS1, $fontW, $letterS, $upper)
+    font-size: $fontS1
+    font-weight: $fontW
+    letter-spacing: $letterS
+    text-transform: $upper
